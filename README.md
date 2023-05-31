@@ -11,7 +11,7 @@ Learned about object oriened programming in python
 
 Solved problems in python
 
-### Week 2
+## Week 2
 
 Learned about Machine Learning (Supervised learning mainly) from video lectues of Andrew NG
 
@@ -26,7 +26,7 @@ Learned about pandas, numpy and matplotlib basics
 
 Learned some mathematical concepts in ML
 
-#### Week 3
+## Week 3
 
 Got an overview about Deep Learning through video lectures from freecodecamp
 
@@ -36,7 +36,7 @@ Learned about Tenserflow and Keras
 
 Peroformed a mini project of MNIST data classification
 
-##### Week 4
+## Week 4
 
 Started with the coding part. 
 
@@ -44,5 +44,5 @@ Read a paper on MobileNet model and understand it
 
 Learned about CNN through further video lectures of Andrew NG
 
-###### Week 5
+## Week 5
 
