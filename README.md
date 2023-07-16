@@ -1,68 +1,22 @@
 # SOC_Project
 Summer of code project on "Real Time Driver Drowsiness Detection System"
 
-## Week 1
+## Training and Testing using images and building model for prediction
 
-Learned the basic concepts of python from w3schools.com
+1) Drowsiness Detection Dataset to train the model is downloaded from kaggle (https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset)
+2) Preprocessing the data is done like resizing images to 224x224 as our model architecture will require inputs of 224x224 size
+3) MobileNet model is used and transfer learning is performed on it
+4) Finalizing the model architecture and specifying the input and output, afterwhich compiling is done
+5) Train the model on desired number of epochs and save it for future use
+6) Test on few images where, prediction value for open eyes will be a negative value and for closed eyes it will be a positive value
+7) Using the haarcascade model for eye detection afterwhich eyes are cropped and then applying our model to make predictions
 
-Learned advanced python concepts in python from GeeksForGeeks like map function, lambda function,Exception Handling, itertools, decorators, collectors, generators etc
+## For real time detection and prediction
 
-Learned about object oriened programming in python
-
-Solved problems in python
-
-## Week 2
-
-Learned about Machine Learning (Supervised learning mainly) from video lectues of Andrew NG
-
-Learned about linear regression with one variable, cost function, gradient descent and similiarly linear regression with multiple variables
-
-Learned about logistic regression(classification), decision boundary, cost function of logistic regression(loss function), optimization and multiclass classification
-
-Learned about problem of overfitting and need of regularization, Regularized linear regression
-Regularized logistic regression
-
-Learned about pandas, numpy and matplotlib basics
-
-Learned some mathematical concepts in ML
-
-## Week 3
-
-Got an overview about Deep Learning through video lectures from freecodecamp
-
-Learned about CNN architecture through video lectures of Andrew NG
-
-Learned about Tenserflow and Keras
-
-Peroformed a mini project of MNIST data classification
-
-## Week 4
-
-Started with the coding part. 
-
-Read a paper on MobileNet model and understand it
-
-Learned about CNN through further video lectures of Andrew NG
-
-## Week 5
-
-
-
-## Week 6
-
-Took live video as input from webcam for prediction of closed eyes
-
-At first the face cascade and eye cascade models are loaded to detect face and eyes from the live video input through webcam
-
-Then a rectangle box gets created around face and inside that, box for both eyes are also created
-
-After which cbs parameter is set to 1 if eyes are detected otherwise 0
-
-If cbs is 1 then eyes are cropped and prediction is done using model whether eyes are closed or open and will get displayed on the window frame
-
-press q to exit out of the window
-
-## Week 7
-
-
+1) Take live video as input from webcam for prediction of closed eyes by running code from webcam_capture_prediction.ipynb
+2) At first the face cascade and eye cascade models are loaded to detect face and eyes from the live video input through webcam
+3) A rectangle box gets created around face and inside that, box for both eyes are also created
+4) After which cbs parameter is set to 1 if eyes are detected otherwise 0
+5) If cbs is 1 then eyes are cropped and prediction is done using model whether eyes are closed or open and will get displayed on the window frame
+6) Press q to exit out of the window
 
