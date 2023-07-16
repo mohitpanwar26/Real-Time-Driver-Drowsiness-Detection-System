@@ -46,3 +46,23 @@ Learned about CNN through further video lectures of Andrew NG
 
 ## Week 5
 
+
+
+## Week 6
+
+Took live video as input from webcam for prediction of closed eyes
+
+At first the face cascade and eye cascade models are loaded to detect face and eyes from the live video input through webcam
+
+Then a rectangle box gets created around face and inside that, box for both eyes are also created
+
+After which cbs parameter is set to 1 if eyes are detected otherwise 0
+
+If cbs is 1 then eyes are cropped and prediction is done using model whether eyes are closed or open and will get displayed on the window frame
+
+press q to exit out of the window
+
+## Week 7
+
+
+
