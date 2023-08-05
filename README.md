@@ -29,3 +29,11 @@ Run model.deploy.py file
 2) It captures frames from the webcam, processes them to detect eyes, and then feeds the eye images to the pre-trained model for classification.
 3) If closed eyes are detected with high confidence, it plays an alert sound to warn the driver.
 4) The app runs on a local server and displays the webcam feed with real-time drowsiness detection.
+
+
+
+
+https://github.com/mohitpanwar26/Real-Time-Driver-Drowsiness-Detection-System/assets/88027885/e97d6957-620a-461c-a76d-d9e6c68d55ad
+
+
+
